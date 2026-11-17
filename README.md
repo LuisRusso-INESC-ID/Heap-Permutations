@@ -1,5 +1,10 @@
 # Heap-type permutation generation
 
+[![DOI][doi-badge]][doi]
+
+[doi-badge]: https://zenodo.org/badge/DOI/10.5281/zenodo.24311259.svg
+[doi]: https://doi.org/10.5281/zenodo.24311259
+
 Software for the paper *Heap-type permutation generation with a
 prescribed final arrangement* by Luís M. S. Russo (submitted to
 Discrete Mathematics & Theoretical Computer Science).
@@ -101,6 +106,15 @@ while (permgen_next(&g, &i, &j)) {
 The generator has no global state and allocates no memory, so
 distinct `permgen` objects can be used concurrently.
 `examples/example.c` is a complete program.
+
+## Citing
+
+The paper uses version v1.0.0, archived on Zenodo as
+[10.5281/zenodo.24311260](https://doi.org/10.5281/zenodo.24311260).
+The DOI
+[10.5281/zenodo.24311259](https://doi.org/10.5281/zenodo.24311259)
+always resolves to the latest version. Citation metadata is in
+`CITATION.cff`.
 
 ## License
 
