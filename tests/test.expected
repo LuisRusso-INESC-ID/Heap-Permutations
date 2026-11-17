@@ -1,0 +1,32 @@
+classic n= 1 : 1 arrangements, final array 1, all distinct
+classic n= 2 : 2 arrangements, final array 2 1, all distinct
+classic n= 3 : 6 arrangements, final array 3 2 1, all distinct
+classic n= 4 : 24 arrangements, final array 2 3 4 1, all distinct
+classic n= 5 : 120 arrangements, final array 5 2 3 4 1, all distinct
+classic n= 6 : 720 arrangements, final array 4 5 2 3 6 1, all distinct
+classic n= 7 : 5040 arrangements, final array 7 2 3 4 5 6 1, all distinct
+classic n= 8 : 40320 arrangements, final array 6 7 2 3 4 5 8 1, all distinct
+classic n= 9 : 362880 arrangements, final array 9 2 3 4 5 6 7 8 1, all distinct
+classic n=10 : 3628800 arrangements, final array 8 9 2 3 4 5 6 7 10 1, all distinct
+cyclic  n= 1 : 1 arrangements, final array 1, all distinct
+cyclic  n= 2 : 2 arrangements, final array 2 1, all distinct
+cyclic  n= 3 : 6 arrangements, final array 3 2 1, all distinct
+cyclic  n= 4 : 24 arrangements, final array 4 1 2 3, all distinct
+cyclic  n= 5 : 120 arrangements, final array 5 2 3 4 1, all distinct
+cyclic  n= 6 : 720 arrangements, final array 6 1 2 3 4 5, all distinct
+cyclic  n= 7 : 5040 arrangements, final array 7 2 3 4 5 6 1, all distinct
+cyclic  n= 8 : 40320 arrangements, final array 8 1 2 3 4 5 6 7, all distinct
+cyclic  n= 9 : 362880 arrangements, final array 9 2 3 4 5 6 7 8 1, all distinct
+cyclic  n=10 : 3628800 arrangements, final array 10 1 2 3 4 5 6 7 8 9, all distinct
+lexmax  n= 1 : 1 arrangements, final array 1, all distinct
+lexmax  n= 2 : 2 arrangements, final array 2 1, all distinct
+lexmax  n= 4 : 24 arrangements, final array 4 3 1 2, all distinct
+lexmax  n= 6 : 720 arrangements, final array 6 5 4 3 2 1, all distinct
+lexmax  n= 8 : 40320 arrangements, final array 8 7 6 5 4 3 1 2, all distinct
+lexmax  n=10 : 3628800 arrangements, final array 10 9 8 7 6 5 4 3 2 1, all distinct
+known n=3 sequence 123 213 312 132 231 321: checked
+permgen_run: full count and early stop: checked
+repeatable sweeps after permgen_restore: checked
+error codes: checked
+n = 20 (initialisation, net, first swaps): checked
+ALL TESTS PASSED

@@ -1,0 +1,7 @@
+*.o
+*.a
+examples/example
+examples/example.out
+tests/test_permgen
+tests/test.out
+__pycache__/

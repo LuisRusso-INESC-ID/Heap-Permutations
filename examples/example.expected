@@ -1,0 +1,41 @@
+== iterator interface, n = 4, CYCLIC ==
+1 2 3 4
+2 1 3 4
+3 1 2 4
+1 3 2 4
+2 3 1 4
+3 2 1 4
+3 2 4 1
+2 3 4 1
+4 3 2 1
+3 4 2 1
+2 4 3 1
+4 2 3 1
+4 1 3 2
+1 4 3 2
+3 4 1 2
+4 3 1 2
+1 3 4 2
+3 1 4 2
+2 1 4 3
+1 2 4 3
+4 2 1 3
+2 4 1 3
+1 4 2 3
+4 1 2 3
+-- last arrangement above; net permutation (0-based one-line): 1 2 3 0
+-- after permgen_restore: 1 2 3 4
+
+== callback interface, n = 3, CLASSIC ==
+1 2 3
+2 1 3
+3 1 2
+1 3 2
+2 3 1
+3 2 1
+-- 6 arrangements visited
+
+== final arrangement after a complete sweep, n = 6, started from 1..6 ==
+CLASSIC 4 5 2 3 6 1
+CYCLIC  6 1 2 3 4 5
+LEXMAX  6 5 4 3 2 1
