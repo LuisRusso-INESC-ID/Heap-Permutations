@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: >-
+  Heap-Permutations: Heap-type permutation generation with a
+  prescribed final arrangement
+abstract: >-
+  PERMGEN, an ISO C99 library that enumerates all permutations of
+  an array with one swap per step using Heap-type schedules with a
+  known final arrangement, and a Python program that checks the
+  computational claims of the accompanying paper.
+type: software
+authors:
+  - family-names: Russo
+    given-names: Luís M. S.
+    orcid: https://orcid.org/0000-0002-1966-1808
+    affiliation: >-
+      INESC-ID, Instituto Superior Técnico, Universidade de Lisboa
+license: MIT
+repository-code: >-
+  https://github.com/LuisRusso-INESC-ID/Heap-Permutations
+keywords:
+  - permutation generation
+  - Heap's algorithm
+  - Gray codes
+  - symmetric group
+version: 1.0.0
+date-released: 2026-11-17
