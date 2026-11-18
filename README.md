@@ -6,7 +6,8 @@
 [doi]: https://doi.org/10.5281/zenodo.24311259
 
 Software for the paper *Heap-type permutation generation with a
-prescribed final arrangement* by Luís M. S. Russo (submitted to
+prescribed final arrangement* by Luís M. S. Russo,
+[arXiv:2611.22780](https://arxiv.org/abs/2611.22780) (submitted to
 Discrete Mathematics & Theoretical Computer Science).
 
 The repository contains:
